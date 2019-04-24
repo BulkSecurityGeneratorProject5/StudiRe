@@ -1,0 +1,12 @@
+entity Student
+{
+	matrikelNummer Long
+    nachname String required
+    vorname String required
+    street String required
+    plz Integer required
+    location String required
+}
+
+service Student with serviceClass
+service Student with serviceImpl
